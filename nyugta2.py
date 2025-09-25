@@ -3,7 +3,7 @@ hossz=24
 def disz_sor(kar:str="*"):
     print(f"{kar*hossz}")
 
-def nyugta(egyenlo:str="=",vonal:str="_"):
+def nyugta():
 
     tetel1=tetel()
     ar1=ar()
@@ -15,16 +15,14 @@ def nyugta(egyenlo:str="=",vonal:str="_"):
     szoveg("NYUGTA")
     disz_sor("*")
     er=osszeg(ar1,ar2,ar3)
-    szer=er/10
-    fiz=er+szer
     kiiras(tetel1,ar1)
     kiiras(tetel2,ar2)
     kiiras(tetel3,ar3)
     disz_sor("=")
     kiiras("Összesen",er)
-    kiiras("Szervízdíj",szer)
+    kiiras("Szervízdíj",er/10)
     disz_sor("=")
-    kiiras("Fizetendő",fiz)
+    kiiras("Fizetendő",er+er/10)
     alairas("_")
     disz_sor("*")
     szoveg("CÉG")
