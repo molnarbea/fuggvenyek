@@ -1,2 +1,2 @@
-import nyugta
-nyugta.nyugta()
+import elagazasok
+elagazasok.kor()
