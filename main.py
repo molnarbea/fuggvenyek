@@ -1,0 +1,2 @@
+import nyugta
+nyugta.nyugta()
